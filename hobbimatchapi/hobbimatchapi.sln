@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.810.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hobbimatchapi", "hobbimatchapi\hobbimatchapi.csproj", "{9E9438CD-EABB-4008-9B6B-BBF5438A646B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hobbimatchtests", "hobbimatchtests\hobbimatchtests.csproj", "{06CE4F4B-3D20-493E-BED3-A9B94B1A1FE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9E9438CD-EABB-4008-9B6B-BBF5438A646B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E9438CD-EABB-4008-9B6B-BBF5438A646B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E9438CD-EABB-4008-9B6B-BBF5438A646B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06CE4F4B-3D20-493E-BED3-A9B94B1A1FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CE4F4B-3D20-493E-BED3-A9B94B1A1FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CE4F4B-3D20-493E-BED3-A9B94B1A1FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CE4F4B-3D20-493E-BED3-A9B94B1A1FE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
