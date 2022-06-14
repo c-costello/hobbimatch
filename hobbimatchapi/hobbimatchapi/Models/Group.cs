@@ -3,16 +3,15 @@ namespace hobbimatchapi.Models
 {
 	public class Group
 	{
-		public Group(string name, string description, string headerImageUrl)
-		{
-			Name = name;
-			Description = description;
-			HeaderImageUrl = headerImageUrl;
-		}
 
 		public string Name { get; set; }
 		public string Description { get; set; }
 		public string HeaderImageUrl { get; set; }
+		public GroupType groupType { get; set; }
+		public string OwnerId { get; set; }
+		public string Id { get; set; }
+
+		public enum GroupType { Public, Private };
 
 	}
 }
